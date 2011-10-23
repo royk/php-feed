@@ -53,7 +53,7 @@ $myatom->generateTags();
 $myatom->setProperty('category', 'tech');
 $myatom->setGenerator('PHP-Feed', '0.1', 'http://github.com/duckson/php-feed');
 $myatom->addAuthor('Henk Ankerman', 'http://example.com/~henk/', 'henk@example.com');
-//$myatom->addLink('http://bernson.eu/testfeed/demo-atom.php', 'self', $m);
+
 $myatom->setProperty('rights', 'Copyleft 2011, Nobody');
 
 // We're using text/plain here to make sure you can read the raw output
